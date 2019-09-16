@@ -9,6 +9,8 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
+  dashboard:
+    enabled: false
 spring:
   application:
     name: eureka-server
