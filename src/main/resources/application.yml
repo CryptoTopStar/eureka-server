@@ -10,7 +10,7 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
   dashboard:
-    enabled: false
+    enabled: ${DASHBOARD}
 spring:
   application:
     name: eureka-server
